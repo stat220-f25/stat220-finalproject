@@ -1,0 +1,12 @@
+---
+title: "final_project"
+format: html
+---
+
+```{r}
+ # loading data
+library(jsonlite)
+
+json_data <- fromJSON("data/openapi.json")
+```
+
